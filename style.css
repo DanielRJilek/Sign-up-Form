@@ -29,4 +29,11 @@ img {
 button {
     background-color: #596D48;
     color: white;
+    border-radius: 3px;
+    border-style: hidden;
+    padding: 5px 10px;
+}
+
+.form_section {
+    box-shadow: 0 8px;
 }
