@@ -1,3 +1,13 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }  
+
 #container {
     width: 100vw;
     height: 100vh;
@@ -6,12 +16,14 @@
 
 #sidebar {
     flex: 1;
+    max-height: 900px;
 }
 
 #content {
     flex: 2;
     display: flex;
     flex-direction: column;
+    max-height: 919px;
 }
 
 label {
@@ -34,6 +46,17 @@ button {
     padding: 5px 10px;
 }
 
+.hero-section {
+    background-color: #f2f2f2;
+    flex: 1;
+}
+
 .form_section {
     box-shadow: 0 8px;
+    flex: 1;
+}
+
+.footer-section {
+    background-color: #f2f2f2;
+    flex: 1;
 }
