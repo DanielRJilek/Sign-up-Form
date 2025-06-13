@@ -1,3 +1,13 @@
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+#sidebar {
+    flex: 1;
+}
+
 #content {
     flex: 2;
     display: flex;
@@ -12,16 +22,11 @@ label {
     display: flex;
 }
 
-#sidebar {
-    flex: 1;
-}
-
-#container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-}
-
 img {
     width: 100%;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
 }
