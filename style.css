@@ -7,6 +7,7 @@ html, body {
     width: 100vw;
     height: 100vh;
     display: flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #sidebar {
@@ -103,3 +104,13 @@ form {
     font-weight: bold;
 }
 
+input:invalid {
+    border-color: red;
+}
+
+input:focus {
+    outline: none;
+    border-color: blue;
+    border-style: solid;
+    box-shadow: 0px 8px 16px  #cccccc;;
+}
